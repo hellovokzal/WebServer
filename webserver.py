@@ -1,3 +1,6 @@
+from os import *
+
+system("pip install flask ; pip install requests ; pip install time")
 from flask import Flask, Response
 from requests import get
 from time import *
